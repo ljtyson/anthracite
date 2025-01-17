@@ -28,19 +28,24 @@
 <script type="text/javascript" src="web-pub/aearchitecture/ckeditor/ckeditor.js"></script>
 <script type="text/javascript" src="page.request.do?page=page.utility.form.js"></script>
 <script type="text/javascript">
-              jQuery.loadScript = function (url, callback) {
-                             jQuery.ajax({
-                            url: url,
-                            dataType: 'script',
-                            success: callback,
-                            async: true
-                            });
-              }
-              FormUtilities.addMultiloadEvent(function() {
-                             jQuery.loadScript('page.request.do?page=page.form.iaInvestigation.js&trackingId=' + jQuery('input[name=trackingId]').val() + '&parentId=' +
-  jQuery('input[name=parentId]').val() , function(){
-                                           var iaInvestigation= new IaInvestigation();
-                                           iaInvestigation.formInit();
-                             });
-              });
+	jQuery.loadScript = function (url, callback) {
+		jQuery.ajax({
+			url: url,
+			dataType: "script",
+			success: callback,
+			async: true
+		});
+	};
+	FormUtilities.addMultiloadEvent(function () {
+		jQuery.loadScript(
+			"page.request.do?page=page.form.iaInvestigation.js&trackingId=" +
+				jQuery("input[name=trackingId]").val() +
+				"&parentId=" +
+				jQuery("input[name=parentId]").val(),
+			function () {
+				var iaInvestigation = new IaInvestigation();
+				iaInvestigation.formInit();
+			}
+		);
+	});
 </script>
