@@ -1,0 +1,213 @@
+.ui-grid-container {
+
+}
+
+.ui-grid-controls {
+    background: #ECE9D8;
+    font-size: 95%;
+    border: 1px solid #d3d3d3;
+    vertical-align: middle;
+}
+.ui-grid-controls input {
+    font-size: 95%;
+    width: 20px;
+}
+
+.ui-grid-controls ul {
+    margin: 0;
+    padding: 3px;
+    padding-bottom: 5px;
+    white-space: nowrap;    
+}
+
+.ui-grid-controls ul li {
+    list-style: none;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.ui-grid-controls ul li a {
+    text-decoration: none;
+    border: 1px solid #ECE9D8;
+    padding: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    cursor: hand;
+    cursor: pointer;    
+}
+
+.ui-grid-controls ul li a:hover {
+    border: 1px solid #d3d3d3;
+    background-image: url('../images/gray-bg.gif');
+}
+
+.ui-grid-controls .applyFilterIcon {
+    padding: 0;
+    margin: 0;
+    height: 16px;
+    width: 16px;
+}
+
+.ui-grid-close {    
+    float: right !important;
+}
+
+.first-record-button {
+    display: block;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-image: url('../images/page-first.gif');
+    height: 16px;
+    width: 16px;    
+}
+
+.previous-record-button {
+    display: block;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-image: url('../images/page-prev.gif');
+    height: 16px;
+    width: 16px;    
+}
+
+.print-grid-button {
+    background: url('../../../images/icons/print_icon.gif') no-repeat 0 center;
+    height: 16px;
+    font-size: 95%;
+    padding-left: 20px;
+    text-decoration: none;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.button-new {
+    padding: 2px 4px;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+#etk_vfs_but {
+    color: #000;
+}
+
+.pageArrowDisabled {
+    padding: 1px 3px;
+}
+
+table.ui-grid {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.ui-grid > thead > tr {
+    background: #ECE9D8;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d3d3d3;
+}
+
+table.ui-grid > thead > tr > th {
+    padding: 2px;
+    margin: 2px;
+    text-align: left;
+    font-size: 95%;
+    vertical-align: top;
+    padding-right: 2px;
+    border-width: 1px;
+    border-style: solid;    
+    border-color: #fff #d3d3d3 #d3d3d3 #fff;
+}
+
+table.ui-grid > thead > tr > th.rowArrowHeader {
+    border-color: #fff #d3d3d3 #d3d3d3 #d3d3d3;
+    width: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.ui-grid > thead > tr > th.rowHeaderIcon {
+    border-color: #ffffff #d3d3d3 #d3d3d3 #d3d3d3;
+    width: 18px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.ui-grid > thead > tr > th a {
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+    display: block;
+}
+
+table.ui-grid > tbody > tr > td {
+    border-bottom: 1px solid #f1f1f1;
+    vertical-align: top;
+}
+
+.desc {
+    background-image: url("../images/arrow_down.gif");
+    background-position: 97% 10%;
+    background-repeat: no-repeat;
+}
+
+.asc {
+    background-image: url("../images/arrow_up.gif");
+    background-position: 97% 10%;
+    background-repeat: no-repeat;
+}
+
+.desc a, asc a {
+
+}
+
+table.sortDirection tbody tr td {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    border-spacing: 0;    
+}
+
+.seperator {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+   
+a.rowArrow {
+    height: 16px;
+    width: 10px;
+    text-align: center;
+    position: relative;
+    top: 3px;
+}
+
+tr.rowHighlight {
+    background: #e2e8f7;
+    cursor: pointer;
+    cursor: hand;
+}
+
+table.ui-grid td a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+table.ui-grid td a.rowArrow {
+    width: 10px;
+    height: 16px;
+}
+
+table.ui-grid td ol,
+table.ui-grid td ul {
+    margin:0px;     
+}
+
+
+.rowArrowHeader {
+    width: 16px;
+}
